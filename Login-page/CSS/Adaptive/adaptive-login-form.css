@@ -1,0 +1,14 @@
+@media (max-width: 410px) {
+    .container .login-form{
+        grid-template-rows: 220px 480px;
+    }
+
+    .container .login-form form .login-setting{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container .login-form form .login-setting .forgot-box{
+        margin-top: 30px;
+    }
+}

@@ -1,0 +1,101 @@
+.pages{
+    width: 100%;
+    height: 900px;
+    background-color: #11749e;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 427.5px 472.5px;
+}
+
+.pages .header{
+    text-align: center;
+    padding: 0 20px 0 20px;
+}
+
+.pages .header:hover span{
+    font-size: 1800%;
+}
+
+.pages .header span{
+    color: rgba(255, 255, 255, 30%);
+    font-size: 1500%;
+    font-weight: bold;
+    position: relative;
+    top: 15%;
+    z-index: 0;
+    transition-duration: 0.5s;
+}
+
+.pages .header h2{
+    font-size: 300%;
+    color: white;
+    position: relative;
+    bottom: 23.5%;
+}
+
+.pages .content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pages .content .container{
+    width: 20%;
+    height: 425px;
+}
+
+.pages .content .container:hover .logo a{
+    width: 175px;
+    height: 175px;
+    cursor: pointer;
+}
+
+.pages .content .container:hover .logo a img{
+    cursor: pointer;
+}
+
+.pages .content .container:hover .logo{
+    height: 55%;
+}
+
+.pages .content .container .logo{
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    transition-duration: 0.5s;
+}
+
+.pages .content .container .logo a{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 30%);
+    border-radius: 50%;
+    transition-duration: 0.5s;
+}
+
+.pages .content .container .logo img{
+    max-height: 40%;
+    filter: invert(1);
+}
+
+.pages .content .container .context{
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+.pages .content .container .context h3{
+    margin-bottom: 20px;
+    font-size: 175%;
+}
+
+.pages .content .container .context p{
+    font-size: 110%;
+}

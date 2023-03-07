@@ -1,0 +1,87 @@
+.container .register-form{
+    display: grid;
+    grid-template-rows: 200px 500px;
+    grid-template-columns: 100%;
+}
+
+.container .register-form:hover header{
+    padding-bottom: 60px;
+}
+
+.container .register-form:hover header h2{
+    font-size: 250%;
+}
+
+.container .register-form header{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 40px;
+    transition-duration: 0.5s;
+}
+
+.container .register-form header h2{
+    color: #1888b0;
+    font-size: 200%;
+    letter-spacing: 2.5px;
+    transition-duration: 0.5s;
+}
+
+.container .register-form form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container .register-form form .reg-info{
+    width: 65%;
+    height: 50px;
+    padding: 0 20px 0 20px;
+    font-size: 100%;
+    border-radius: 40px;
+    border: none;
+    background-color: #d5edf6;
+    margin-bottom: 30px;
+    outline: none;
+    transition-duration: 0.5s;
+}
+
+.container .register-form form .reg-info:hover,
+.container .register-form form .reg-info:focus{
+    width: 70%;
+}
+
+.container .register-form form .action-buttons{
+    width: 65%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container .register-form form .action-buttons input{
+    width: 45%;
+    height: 45px;
+    border-radius: 40px;
+    border: none;
+    background-image: linear-gradient(to right, #39a7ce 35%, #11749e);
+    color: white;
+    font-size: 105%;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+.container .register-form form .action-buttons input:hover{
+    width: 50%;
+}
+
+.container .register-form form .action-buttons a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 50%);
+    transition-duration: 0.25s;
+    margin-top: 15px;
+}
+
+.container .register-form form .action-buttons a:hover{
+    color: #11749e;
+}

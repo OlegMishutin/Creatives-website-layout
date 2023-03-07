@@ -1,0 +1,86 @@
+@media (min-width: 1921px) {
+    .tutorials{
+        background-size: 100vw 65vw;
+    }
+}
+
+@media (max-width: 1180px) {
+    .tutorials .container .context .context-buttons a button{
+        font-size: 87.5%;
+    }
+
+    .tutorials .container .picture:hover img{
+        max-height: 85%;
+    }
+}
+
+@media (max-width: 980px) {
+    .tutorials .container .picture:hover img{
+        max-height: 75%;
+    }
+}
+
+@media (max-width: 900px) {
+    .tutorials{
+        height: 750px;
+    }
+
+    .tutorials .container{
+        grid-template-columns: 100%;
+    }
+
+    .tutorials .container .context .info{
+        padding: 0 20% 0 20%;
+        text-align: center;
+    }
+
+    .tutorials .container .context .context-buttons{
+        padding: 0 15% 0 15%;
+    }
+
+    .tutorials .container .picture{
+        display: none;
+    }
+
+    .tutorials .container .context .context-buttons a:nth-child(1){
+        width: 100%;
+    }
+
+    .tutorials .container .context .context-buttons a:nth-child(2){
+        width: 100%;
+    }
+
+    .tutorials .container .context .context-buttons a:nth-child(3){
+        width: 100%;
+    }
+
+    .tutorials .container .context:hover .context-buttons a:nth-child(1){
+        width: 100%;
+    }
+
+    .tutorials .container .context:hover .context-buttons a:nth-child(2){
+        width: 100%;
+    }
+
+    .tutorials .container .context:hover .context-buttons a:nth-child(3){
+        width: 100%;
+    }
+}
+
+@media (max-width: 540px) {
+    .tutorials{
+        height: 850px;
+    }
+}
+
+@media (max-width: 425px) {
+    .tutorials{
+        height: 950px;
+    }
+}
+
+@media (max-width: 310px) {
+    .tutorials{
+        height: 1000px;
+    }
+}

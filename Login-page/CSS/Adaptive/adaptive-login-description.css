@@ -1,0 +1,17 @@
+@media (max-width: 1250px) {
+    .container .description{
+        text-align: center;
+        padding: 150px 25px 100px 25px;
+    }
+}
+
+@media (max-width: 425px) {
+    .container .description h1{
+        font-size: 240%;
+    }
+    
+    .container .description:hover h1{
+        margin-bottom: 40px;
+        font-size: 240%;
+    }
+}

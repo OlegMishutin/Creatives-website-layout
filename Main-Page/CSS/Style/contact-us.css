@@ -1,0 +1,149 @@
+.contact-us{
+    width: 100%;
+    height: 950px;
+    background-image: url("../../Image/contact-us-back.jpg");
+    background-size: 1920px 1300px;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.contact-us .container{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 82.5%);
+    display: grid;
+    grid-template-rows: 390px 560px;
+}
+
+.contact-us .container .header{
+    text-align: center;
+}
+
+.contact-us .container .header:hover span{
+    font-size: 1800%;
+}
+
+.contact-us .container .header span{
+    color: rgba(255, 255, 255, 35%);
+    font-size: 1500%;
+    font-weight: bold;
+    position: relative;
+    top: 15%;
+    z-index: 0;
+    transition-duration: 0.6s;
+}
+
+.contact-us .container .header h2{
+    font-size: 300%;
+    position: relative;
+    bottom: 27.5%;
+    transition-duration: 0.6s;
+    color: white;
+    padding: 0 40px 0 40px;
+}
+
+.contact-us .container form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-us .container form .contac-info{
+    width: 85%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-us .container form .contac-info input{
+    width: 26.5%;
+    height: 100%;
+    font-size: 125%;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: none;
+    border: 5px solid rgba(255, 255, 255, 50%);
+    color: white;
+    outline: none;
+    transition-duration: 0.5s;
+}
+
+@keyframes input-hover {
+    0%{
+        border-bottom-color: rgba(255, 255, 255, 50%);
+        border-top-color: #11749e;
+    }
+    25%{
+        border-top-color: rgba(255, 255, 255, 50%);
+        border-right-color: #11749e;
+    }
+    50%{
+        border-right-color: rgba(255, 255, 255, 50%);
+        border-bottom-color: #11749e;
+    }
+    75%{
+        border-left-color: #11749e;
+        border-bottom-color: rgba(255, 255, 255, 50%);
+    }
+    100%{
+        border-bottom-color: rgba(255, 255, 255, 50%);
+        border-top-color: #11749e;
+    }
+}
+
+.contact-us .container form .contac-info input:hover,
+.contact-us .container form .contac-info input:focus{
+    animation: input-hover 2s infinite linear;
+    width: 24.5%;
+}
+
+.contact-us .container form .message{
+    width: 85%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-us .container form .message textarea{
+    width: 100%;
+    height: 70%;
+    resize: none;
+    padding: 20px;
+    font-size: 135%;
+    background: none;
+    border: 5px solid rgba(255, 255, 255, 50%);
+    color: white;
+    outline: none;
+    transition-duration: 0.5s;
+}
+
+.contact-us .container form .message textarea:hover,
+.contact-us .container form .message textarea:focus{
+    animation: input-hover 3s infinite linear;
+    height: 60%;
+}
+
+.contact-us .container form .submit{
+    width: 85%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-us .container form .submit input{
+    width: 25%;
+    height: 50%;
+    color: white;
+    background-color: #11749e;
+    border: none;
+    font-weight: bold;
+    font-size: 175%;
+    transition-duration: 0.5s;
+}
+
+.contact-us .container form .submit input:hover{
+    width: 30%;
+}

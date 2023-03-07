@@ -1,0 +1,144 @@
+.container .login-form{
+    display: grid;
+    grid-template-rows: 250px 450px;
+    grid-template-columns: 100%;
+}
+
+.container .login-form:hover header{
+    padding-bottom: 60px;
+}
+
+.container .login-form:hover header h2{
+    font-size: 250%;
+}
+
+.container .login-form header{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 40px;
+    transition-duration: 0.5s;
+}
+
+.container .login-form header h2{
+    color: #1888b0;
+    font-size: 200%;
+    letter-spacing: 2.5px;
+    transition-duration: 0.5s;
+}
+
+.container .login-form form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container .login-form form .contact-info{
+    width: 65%;
+    height: 50px;
+    padding: 0 20px 0 20px;
+    font-size: 100%;
+    border-radius: 40px;
+    border: none;
+    background-color: #d5edf6;
+    margin-bottom: 30px;
+    outline: none;
+    transition-duration: 0.5s;
+}
+
+.container .login-form form .contact-info:hover,
+.container .login-form form .contact-info:focus{
+    width: 70%;
+}
+
+.container .login-form form .login-setting{
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.container .login-form form .login-setting .remember-box input[type="checkbox"]{
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+.container .login-form form .login-setting .remember-box input[type="checkbox"]+label{
+    display: inline-flex;
+    align-items: center;
+}
+
+.container .login-form form .login-setting .remember-box input[type="checkbox"]+label::before{
+    content: "✔";
+    text-align: center;
+    color: rgba(0, 0, 0, 0);
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 3px solid #55577b;
+    border-radius: 50%;
+    margin-right: 10px;
+    transition-duration: 0.3s;
+}
+
+.container .login-form form .login-setting .remember-box input[type="checkbox"]:checked+label::before{
+    color: rgba(100%, 100%, 100%, 100%);
+    background-color: #55577b;
+}
+
+.container .login-form form .login-setting .remember-box label{
+    color: rgba(0, 0, 0, 50%);
+    transition-duration: 0.3s;
+}
+
+.container .login-form form .login-setting .remember-box label:hover{
+    color: #11749e;
+}
+
+.container .login-form form .login-setting .forgot-box{
+    display: flex;
+    align-items: center;
+}
+
+.container .login-form form .login-setting .forgot-box a,
+.container .login-form form a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 50%);
+    transition-duration: 0.25s;
+}
+
+.container .login-form form .login-setting .forgot-box a:hover,
+.container .login-form form a:hover{
+    color: #11749e;
+}
+
+.container .login-form form .buttons{
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.container .login-form form .buttons input,
+.container .login-form form .buttons button{
+    width: 45%;
+    height: 45px;
+    margin-right: 10px;
+    border-radius: 40px;
+    border: none;
+    background-image: linear-gradient(to right, #39a7ce 35%, #11749e);
+    color: white;
+    font-size: 105%;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+.container .login-form form .buttons button{
+    margin-right: 0;
+}
+
+.container .login-form form .buttons input:hover,
+.container .login-form form .buttons button:hover{
+    width: 50%;
+}

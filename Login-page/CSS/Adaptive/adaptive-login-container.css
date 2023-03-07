@@ -1,0 +1,25 @@
+@media (max-height: 700px) {
+    body{
+        align-items: flex-start;
+    }
+
+    .container{
+        width: 100%;
+        border-radius: 0;
+    }
+}
+
+@media (max-width: 1250px) {
+    body{
+        align-items: flex-start;
+    }
+
+    .container{
+        width: 100%;
+        height: auto;
+        min-height: 100%;
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto;
+        border-radius: 0;
+    }
+}

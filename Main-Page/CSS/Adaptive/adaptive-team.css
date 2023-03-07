@@ -1,0 +1,46 @@
+@media (max-width: 1220px) {
+    .team{
+        height: 2000px;
+        grid-template-rows: 390px 1610px;
+    }
+
+    .team .header p{
+        font-size: 140%;
+        letter-spacing: 2px;
+    }
+
+    .team .content{
+        flex-wrap: wrap;
+        align-items: flex-end;
+    }
+
+    .team .content .container{
+        width: 40%;
+    }
+
+    .team .content .container .picture img{
+        max-height: none;
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .team{
+        height: 3500px;
+        grid-template-rows: 390px 3110px;
+    }
+
+    .team .header p{
+        display: none;
+    }
+
+    .team .content .container{
+        width: 80%;
+    }
+}
+
+@media (max-width: 310px) {
+    .team .header h2{
+        font-size: 250%;
+    }
+}

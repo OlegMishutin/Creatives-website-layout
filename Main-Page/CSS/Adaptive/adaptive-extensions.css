@@ -1,0 +1,78 @@
+@media (max-width: 1366px) {
+    .extensions{
+        height: 1850px;
+        grid-template-rows: 390px 1460px;
+    }
+
+    .extensions .content{
+        flex-wrap: wrap;
+        align-items: flex-end;
+    }
+
+    .extensions .content .container{
+        width: 45%;
+    }
+
+    .extensions .content .container .context h3{
+        margin-top: -30px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .extensions .header{
+        padding: 0 27px 0 27px;
+    }
+
+    .extensions .header p{
+        font-size: 120%;
+    }
+
+    .extensions .header:hover p{
+        bottom: 20.6%;
+    }
+}
+
+@media (max-width: 768px) {
+    .extensions{
+        height: 3110px;
+        grid-template-rows: 390px 2120px;
+    }
+
+    .extensions .header p{
+        display: none;
+    }
+
+    .extensions .content{
+        align-items: flex-start;
+    }
+
+    .extensions .content .container{
+        width: 80%;
+    }
+
+    .extensions .content .container .context{
+        justify-content: flex-start;
+    }
+
+    .extensions .content .container .context h3{
+        margin-top: 20px;
+    }
+
+    .extensions .content .container .context p{
+        padding: 0 10px 0 10px;
+    }
+}
+
+@media (max-width: 360px) {
+    .extensions .header h2{
+        font-size: 220%;
+        bottom: 26%;
+    }
+}
+
+@media (max-width: 335px){
+    .extensions{
+        height: 3400px;
+        grid-template-rows: 390px 3010px;
+    }
+}

@@ -1,0 +1,115 @@
+@media (min-width: 1921px) {
+    header{
+        background-size: 100vw 62.5vw;
+    }
+}
+
+@media (max-width: 903px) {
+    header .container .bottom-header .context h1{
+        font-size: 700%;
+    }
+
+    header .container .bottom-header .context p{
+        font-size: 127.5%;
+    }
+}
+
+@media (max-width: 768px) {
+    header{
+        height: 1500px;
+        background-size: 2420px 1700px;
+    }
+
+    header .container{
+        grid-template-rows: 996.75px 503.25px;
+    }
+
+    header .container .top-header{
+        grid-template-columns: 100%;
+        grid-template-rows: 35% 50% 15%;
+        border: none;
+    }
+
+    header .container .top-header nav{
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 0 10% 0 10%;
+    }
+
+    header .container .top-header nav a{
+        width: 155px;
+        height: 100px;
+    }
+
+    header .container .top-header .contacts a{
+        width: 50px;
+        height: 50px;
+    }
+
+    header .container .top-header .contacts a:hover{
+        width: 55px;
+        height: 55px;
+    }
+
+    header .container .bottom-header{
+        grid-template-rows: 62.5% 37.5%;
+    }
+
+    header .container .bottom-header .context p{
+        font-size: 100%;
+    }
+}
+
+@media (max-width: 686px){
+    header .container .bottom-header .context h1{
+        font-size: 500%;
+    }
+}
+
+@media (max-width: 500px){
+    header .container .bottom-header .context h1{
+        font-size: 400%;
+    }
+
+    header .container .bottom-header .context p{
+        font-size: 80%;
+    }
+}
+
+@media (max-width: 420px) {
+    header{
+        height: 1196.75px;
+        background-size: 2520px 1800px;
+    }
+
+    header .container{
+        grid-template-rows: 996.75px 200px;
+    }
+
+    header .container .top-header nav a{
+        width: 49%;
+    }
+
+    header .container .top-header nav a button{
+        font-size: 110%;
+    }
+
+    header .container .top-header nav a button:hover{
+        font-size: 125%;
+    }
+
+    header .container .bottom-header{
+        grid-template-rows: 100%;
+    }
+
+    header .container .bottom-header .context{
+        display: none;
+    }
+
+    header .container .bottom-header .scroll-button{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

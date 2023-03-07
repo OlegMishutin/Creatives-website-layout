@@ -1,0 +1,21 @@
+.container .description{
+    padding: 150px 75px 100px 75px;
+    background-image: linear-gradient(to right bottom, #39a7ce 25%, #5556a6);
+    color: white;
+}
+
+.container .description:hover h1{
+    margin-bottom: 40px;
+    font-size: 420%;
+}
+
+.container .description h1{
+    font-size: 400%;
+    margin-bottom: 20px;
+    transition-duration: 0.5s;
+}
+
+.container .description p{
+    font-size: 175%;
+    line-height: 125%;
+}

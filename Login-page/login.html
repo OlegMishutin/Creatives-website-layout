@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign in creatives</title>
+    <link rel="icon" href="../Main-Page/Image/logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../standart-CSS.css">
+    <link rel="stylesheet" href="CSS/Style/login-container.css">
+    <link rel="stylesheet" href="CSS/Style/login-description.css">
+    <link rel="stylesheet" href="CSS/Style/login-form.css">
+    <link rel="stylesheet" href="CSS/Adaptive/adaptive-login-container.css">
+    <link rel="stylesheet" href="CSS/Adaptive/adaptive-login-description.css">
+    <link rel="stylesheet" href="CSS/Adaptive/adaptive-login-form.css">
+</head>
+<body>
+<div class="container">
+    <div class="description">
+        <h1>Welcome to Creatives</h1>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+        tincidunt ut laoreet dolore magna aliquam erat volutpat</p>
+    </div>
+    <div class="login-form" id="login-form">
+        <header>
+            <h2>SIGN IN</h2>
+        </header>
+        <form action="../index.html" method="post">
+            <input type="email" class="contact-info" placeholder="Email" name="email" required>
+            <input type="password" class="contact-info"  placeholder="Password" name="password" required>
+            <div class="login-setting">
+                <div class="remember-box">
+                    <input type="checkbox" id="remember-checkbox" name="remember">
+                    <label for="remember-checkbox">Remember</label>
+                </div>
+                <div class="forgot-box">
+                    <a href="Forgot-password-page/forgot-password.html#forgot-password-form">Forgot password</a>
+                </div>
+            </div>
+            <div class="buttons">
+                <input type="submit" value="SIGN IN">
+                <button onclick="document.location='../Registration-page/registration.html#register-form'">SIGN UP</button>
+            </div>
+            <a href="../index.html">Get back</a>
+        </form>
+    </div>
+</div>
+</body>
+</html>
